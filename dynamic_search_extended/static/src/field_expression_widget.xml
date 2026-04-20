@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t t-name="dynamic_search_extended.FieldExpressionWidget">
+        <ModelFieldSelector
+            t-if="resModel"
+            resModel="resModel"
+            path="currentPath"
+            readonly="props.readonly"
+            update="onUpdate"
+            followRelations="true"
+            showSearchInput="true"
+        />
+        <span t-else="" class="text-muted fst-italic">
+            — select a model first —
+        </span>
+    </t>
+</templates>

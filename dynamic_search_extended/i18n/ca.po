@@ -1,0 +1,134 @@
+# Catalan translation for Dynamic Search Extended
+# Copyright (C) 2026 TwenTIC
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 00:00+0000\n"
+"PO-Revision-Date: 2026-03-16 00:00+0000\n"
+"Last-Translator: TwenTIC <info@twentic.com>\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: dynamic_search_extended
+#: model:ir.model,name:dynamic_search_extended.model_dynamic_search_generator
+msgid "Dynamic Search Generator"
+msgstr "Generador de cerca dinàmica"
+
+#. module: dynamic_search_extended
+#: model:ir.model,name:dynamic_search_extended.model_dynamic_search_generator_line
+msgid "Dynamic Search Generator Line"
+msgstr "Línia del generador de cerca dinàmica"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator__model_id
+msgid "Model"
+msgstr "Model"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator__model_name
+msgid "Model Technical Name"
+msgstr "Nom tècnic del model"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator__line_ids
+msgid "Search Lines"
+msgstr "Línies de cerca"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator__state
+msgid "State"
+msgstr "Estat"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields.selection,name:dynamic_search_extended.selection__dynamic_search_generator__state__draft
+msgid "Draft"
+msgstr "Esborrany"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields.selection,name:dynamic_search_extended.selection__dynamic_search_generator__state__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator_line__name
+msgid "Label"
+msgstr "Etiqueta"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator_line__field_expression
+msgid "Field Expression"
+msgstr "Expressió de camp"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator_line__view_id
+msgid "Generated View"
+msgstr "Vista generada"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator_line__is_deployed
+msgid "Deployed"
+msgstr "Desplegat"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator_line__generator_id
+msgid "Generator"
+msgstr "Generador"
+
+#. module: dynamic_search_extended
+#: model:ir.model.fields,field_description:dynamic_search_extended.field_dynamic_search_generator_line__sequence
+msgid "Sequence"
+msgstr "Seqüència"
+
+#. module: dynamic_search_extended
+#: code:addons/dynamic_search_extended/models/dynamic_search_generator.py:0
+#, python-format
+msgid "Please add at least one search line before creating filters."
+msgstr "Si us plau, afegiu almenys una línia de cerca abans de crear els filtres."
+
+#. module: dynamic_search_extended
+#: code:addons/dynamic_search_extended/models/dynamic_search_generator.py:0
+#, python-format
+msgid "No primary search view found for model \"%s\"."
+msgstr "No s'ha trobat cap vista de cerca principal per al model \"%s\"."
+
+#. module: dynamic_search_extended
+#: code:addons/dynamic_search_extended/models/dynamic_search_generator_line.py:0
+#, python-format
+msgid "Field expression \"%s\" is invalid. Use a field name or a dotted path such as \"partner_id.city\"."
+msgstr "L'expressió de camp \"%s\" no és vàlida. Useu un nom de camp o una ruta amb punts com ara \"partner_id.city\"."
+
+#. module: dynamic_search_extended
+#: model:ir.actions.act_window,name:dynamic_search_extended.action_dynamic_search_generator
+#: model:ir.ui.menu,name:dynamic_search_extended.menu_dynamic_search_generator
+msgid "Dynamic Search Generators"
+msgstr "Generadors de cerca dinàmica"
+
+#. module: dynamic_search_extended
+#: model:ir.ui.menu,name:dynamic_search_extended.menu_dynamic_search_root
+msgid "Dynamic Search"
+msgstr "Cerca dinàmica"
+
+#. module: dynamic_search_extended
+#: model_terms:ir.ui.view,arch_db:dynamic_search_extended.view_dynamic_search_generator_form
+msgid "Search Lines"
+msgstr "Línies de cerca"
+
+#. module: dynamic_search_extended
+#: model_terms:ir.ui.view,arch_db:dynamic_search_extended.view_dynamic_search_generator_form
+msgid "Create Search Filters"
+msgstr "Crear filtres de cerca"
+
+#. module: dynamic_search_extended
+#: model_terms:ir.ui.view,arch_db:dynamic_search_extended.view_dynamic_search_generator_form
+msgid "Remove Search Filters"
+msgstr "Eliminar filtres de cerca"

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dynamic_search_generator_admin,dynamic.search.generator admin,model_dynamic_search_generator,base.group_system,1,1,1,1
+access_dynamic_search_generator_user,dynamic.search.generator user,model_dynamic_search_generator,base.group_user,1,0,0,0
+access_dynamic_search_generator_line_admin,dynamic.search.generator.line admin,model_dynamic_search_generator_line,base.group_system,1,1,1,1
+access_dynamic_search_generator_line_user,dynamic.search.generator.line user,model_dynamic_search_generator_line,base.group_user,1,0,0,0

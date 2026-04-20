@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Root menu under Settings > Technical -->
+    <menuitem
+        id="menu_dynamic_search_root"
+        name="Dynamic Search"
+        parent="base.menu_administration"
+        sequence="90"/>
+
+    <menuitem
+        id="menu_dynamic_search_generator"
+        name="Search Generators"
+        parent="menu_dynamic_search_root"
+        action="action_dynamic_search_generator"
+        sequence="10"/>
+
+</odoo>
