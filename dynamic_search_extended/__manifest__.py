@@ -22,6 +22,7 @@
         'views/dynamic_search_generator_views.xml',
         'views/menus.xml',
     ],
+    'images': ['static/description/main_screenshot.png'],
     'installable': True,
     'application': False,
     'auto_install': False,
